@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+body {
+    overflow-x: hidden;
+}
+
+.social_contactnav .fab {
+    color: #fba543;
+    font-size: 20px;
+}
+
+.social_contact {
+    border-bottom: 1px solid #7d7d7d;
+}
+
+.social_contactnav .fab:hover {
+    color: white;
+}
+
+
+/* .login_btn {
+    background-color: transparent;
+    border: 2px solid #fba543;
+    border-radius: 10px;
+    padding: 8px 15px 8px 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.resister_btn {
+    background-image: linear-gradient(50deg, #fe9a52, #ff5748);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.login_btn:hover {
+    background-image: linear-gradient(50deg, #fe9a52, #ff5748);
+    color: white;
+    border: none;
+}
+
+.resister_btn:hover {
+    box-shadow: 2.5px 4.33px 15px 0px rgba(17, 17, 17, 0.5);
+}
+
+.nav_btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_btn a:hover {
+    color: white;
+    text-decoration: none;
+} */
+
+.container {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.navbar {
+    background-color: #2e39b3;
+    color: white;
+    padding: 10px 20px 10px 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.kbyte_footer {
+    background: linear-gradient(-274.74deg, #FFECD7 9.5%, rgba(255, 236, 215, 0) 100.79%);
+    padding: 5em 2em 1em 5em;
+    border-top-left-radius: 15em;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.footer_about,
+.footer_contact,
+.footer_link {
+    margin: 10px;
+}
+
+.social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f9e6d4;
+    color: #fba543;
+    font-size: 20px;
+}
+
+.social a:hover {
+    color: #fff;
+    background-color: #fba543;
+    box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+}
+
+.kbyte_footer .footer_link a,
+.kbyte_footer .footer_contact a {
+    color: #7d7d7d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kbyte_footer .footer_link a:hover,
+.kbyte_footer .footer_contact a:hover {
+    color: #fba543;
+    text-decoration: underline;
+}
+
+.contact_title,
+.link_title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.copyright_area {
+    font-weight: bold;
+    text-align: right;
+    color: #7d7d7d;
+}

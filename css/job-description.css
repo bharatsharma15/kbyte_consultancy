@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+.description {
+    padding: 3em 10em 10em 10em;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.description_brand {
+    margin: 30px;
+}
+
+.brand_logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.decription_brand_name {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #5022E2;
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Gideon Roman', cursive;
+}
+
+li {
+    font-family: 'Gideon Roman', cursive;
+}
+
+h4 {
+    font-family: 'Acme', sans-serif;
+}
+
+.apply_btn {
+    margin-top: 20px;
+    background-color: #5022E2;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.apply_btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.apply_btn a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.apply_btn:hover {
+    box-shadow: 2.5px 4.33px 15px 0px rgba(17, 17, 17, 0.5);
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        padding: 10px 20px 10px 20px;
+    }
+}

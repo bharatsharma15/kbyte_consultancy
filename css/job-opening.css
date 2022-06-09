@@ -1,0 +1,95 @@
+.job_opening {
+    margin-top: 5rem;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: linear-gradient(274.74deg, #FFECD7 9.5%, rgba(255, 236, 215, 0) 100.79%);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 1.5rem;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.job_name,
+#company_name {
+    font-weight: bold;
+    font-family: 'Gideon Roman', cursive;
+    text-transform: capitalize;
+}
+
+.brand_logo {
+    float: right;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.skills {
+    padding: 10px;
+}
+
+.skill_ul {
+    display: flex;
+    list-style: none;
+}
+
+.skill_ul li {
+    font-weight: 600;
+    list-style: disc;
+    padding-right: 25px;
+    text-transform: capitalize;
+}
+
+.content_btn {
+    float: right;
+}
+
+.view_btn {
+    background-color: transparent;
+    border: 2px solid #2e39b3;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.apply_btn {
+    background-image: linear-gradient(50deg, #fe9a52, #ff5748);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.apply_btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.apply_btn a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.view_btn:hover {
+    background-color: #2e39b3;
+    color: white;
+}
+
+.apply_btn:hover {
+    box-shadow: 2.5px 4.33px 15px 0px rgba(17, 17, 17, 0.5);
+}
+
+@media screen and (max-width: 991px) {
+    .skill_ul {
+        display: block;
+    }
+}

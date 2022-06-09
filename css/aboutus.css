@@ -1,0 +1,162 @@
+.about_details {
+    padding-top: 30px;
+    margin-top: 5rem;
+}
+
+.about_container1 img,
+.about_container3 img,
+.about_container2 img,
+.client img {
+    bottom: 50%;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+}
+
+.about_details h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(47, 45, 53);
+    font-size: 30px;
+    border-left: 5px solid #ff5748;
+    padding: 0px 0px 0px 30px;
+    margin: 0px 0px 20px 20px;
+}
+
+.about_details h4,
+.client h4 {
+    font-weight: bold;
+    padding-top: 20px;
+    color: #ff5748;
+}
+
+.about_details p,
+.client p {
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bold;
+}
+
+.about_text1,
+.about_text3 {
+    text-align: left;
+    padding: 20px;
+}
+
+.about_text2 {
+    text-align: right;
+    padding: 20px;
+}
+
+.other_about_detail {
+    text-align: center;
+}
+
+.other_about_detail i {
+    font-size: 5em;
+    padding: 10px;
+    color: #fba543;
+}
+
+.other_about_detail h4 {
+    font-weight: bold;
+}
+
+.other_about_detail p {
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bold;
+}
+
+.client {
+    background: linear-gradient(274.74deg, #FFECD7 9.5%, rgba(255, 236, 215, 0) 100.79%);
+    padding: 40px 20px 50px 20px;
+    text-align: right;
+}
+
+.client h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(47, 45, 53);
+    font-size: 30px;
+    border-right: 5px solid #ff5748;
+    padding: 0px 30px 0px 0px;
+    margin: 0px 0px 20px 20px;
+}
+
+
+/* 
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.logo-carousel {
+    overflow: inherit;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-track::before,
+.slick-track::after {
+    display: table;
+    content: '';
+}
+
+.slick-track::after {
+    clear: both;
+}
+
+.slick-track {
+    padding: 1rem 0;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    background: url(angle_left_icon.png) center no-repeat;
+    color: rgb(12, 12, 12);
+    border: none;
+    width: 2rem;
+    height: 1.5rem;
+    text-indent: -10000px;
+    margin-top: -16px;
+    z-index: 99;
+}
+
+.slick-arrow.slick-next {
+    right: -40px;
+    transform: rotate(180deg);
+}
+
+.slick-arrow.slick-prev {
+    left: -40px;
+} */
+
+@media (max-width: 768px) {
+    /* .slick-arrow {
+        width: 4rem;
+        height: 1rem;
+    } */
+    .about_text2,
+    .client {
+        text-align: left;
+    }
+    .client h1 {
+        border-left: 5px solid #ff5748;
+        padding: 0px 0px 0px 30px;
+        border-right: none;
+        margin: 0px 0px 20px 0px;
+    }
+}

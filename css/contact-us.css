@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+.contact_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background: linear-gradient(274.74deg, #FFECD7 9.5%, rgba(255, 236, 215, 0) 100.79%);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 1.5rem;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 5rem;
+}
+
+.contact_form_img img {
+    padding: 150px 30px 20px 30px;
+    width: 80%;
+    transition: 0.5s all ease-in-out;
+    display: block;
+}
+
+.contact_form_img img:hover {
+    transform: scale(1.2);
+}
+
+.contact_form_title h2 {
+    color: #2e39b3;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+.contact_validate-form {
+    padding: 20px 100px 50px 10px;
+}
+
+.validate_name i,
+.validate_email i,
+.validate_phone i,
+.validate_msg i {
+    position: absolute;
+    padding: 28px;
+    padding-left: 30px;
+    text-align: center;
+    columns: #666;
+}
+
+.validate_name input,
+.validate_email input,
+.validate_phone input,
+.validate_msg textarea {
+    width: 100%;
+    padding: 14px 30px;
+    padding-left: 40px;
+    border-radius: 25px;
+    max-width: 100%;
+    background-color: #e6e6e6;
+    border: none;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.validate_msg textarea {
+    min-height: 150px;
+    overflow: auto;
+    resize: vertical;
+}
+
+.validate_form_btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #2e39b3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    border: none;
+    margin: 10px;
+}
+
+.validate_form_btn:hover {
+    box-shadow: 2.5px 4.33px 15px 0px rgba(17, 17, 17, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .contact_validate-form {
+        padding: 20px 20px 20px 10px;
+    }
+    .contact_form_img img {
+        display: none;
+    }
+}
